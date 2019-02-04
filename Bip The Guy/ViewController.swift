@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
-        print("Hey! You just pressed the image!")
+        animateImage()
     }
 }
 
